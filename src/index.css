@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Fira Code', 'JetBrains Mono', 'Menlo', 'Monaco', 'Consolas', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  @apply bg-terminal-dark text-green-400;
+}
+
+.terminal-container {
+  @apply bg-terminal-dark text-green-400 p-4 border border-terminal-green rounded-md;
+}
+
+.terminal-header {
+  @apply flex items-center gap-2 mb-4 border-b border-terminal-green pb-2;
+}
+
+.terminal-dot {
+  @apply w-3 h-3 rounded-full;
+}
+
+.terminal-input {
+  @apply bg-terminal-light text-terminal-green border border-terminal-green p-2 rounded-md focus:outline-none focus:ring-1 focus:ring-terminal-green;
+}
+
+.terminal-button {
+  @apply bg-terminal-light text-terminal-green border border-terminal-green px-4 py-2 rounded-md hover:bg-terminal-green hover:text-terminal-dark transition-colors;
+}
+
+.terminal-link {
+  @apply text-terminal-cyan underline hover:text-terminal-blue transition-colors;
+}
+
+.terminal-nav {
+  @apply flex flex-col md:flex-row gap-4 mb-6;
+}
+
+.terminal-nav-item {
+  @apply px-4 py-2 border border-terminal-green rounded-md hover:bg-terminal-green hover:text-terminal-dark transition-colors;
+}
+
+.terminal-nav-item.active {
+  @apply bg-terminal-green text-terminal-dark;
+}
+
+.terminal-section {
+  @apply mb-8;
+}
+
+.terminal-title {
+  @apply text-terminal-yellow text-2xl mb-4 border-b border-terminal-yellow pb-2;
+}
+
+.terminal-subtitle {
+  @apply text-terminal-cyan text-xl mb-3;
+}
+
+.terminal-text {
+  @apply text-green-400 mb-4;
+}
+
+.terminal-project {
+  @apply border border-terminal-green p-4 rounded-md mb-4;
+}
+
+.terminal-skill {
+  @apply inline-block px-3 py-1 m-1 border border-terminal-green rounded-md;
+}
+
+.terminal-footer {
+  @apply mt-12 pt-4 border-t border-terminal-green text-center text-sm;
+}
