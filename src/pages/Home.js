@@ -1,10 +1,18 @@
 import React from 'react';
+import AlphyFormals1 from '../assets/Alphy_Formals1.jpg';
 
 const Home = () => {
   return (
     <div>
       <div className="terminal-section">
         <h1 className="terminal-title">Welcome to My Terminal</h1>
+          <div className="flex justify-start mb-6">
+          <img
+            src={AlphyFormals1}
+            alt="My Photo"
+            className="rounded-full w-32 h-32 object-cover shadow-lg"
+          />
+        </div>
         <div className="mb-6">
           <span className="text-terminal-green">user@developer:~$ </span>
           <span className="text-terminal-yellow">whoami</span>

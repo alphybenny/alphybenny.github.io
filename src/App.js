@@ -9,7 +9,7 @@ import Contact from './pages/Contact';
 function App() {
   return (
     <Router>
-      <div className="min-h-screen bg-terminal-dark text-green-400 p-4 md:p-8">
+      <div className="min-h-screen bg-white text-green-400 p-4 md:p-8">
         <header className="terminal-container mb-8">
           <div className="terminal-header">
             <div className="terminal-dot bg-red-500"></div>
