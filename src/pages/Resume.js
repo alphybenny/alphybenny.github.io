@@ -1,4 +1,5 @@
 import React from 'react';
+import resumepdf from '../assets/Alphy_Benny_Resume.pdf';
 
 const Resume = () => {
   return (
@@ -80,10 +81,13 @@ const Resume = () => {
         
         
         <div className="mb-4">
+          <a href={resumepdf} download>
           <button className="terminal-button">
-            Download Full Resume (PDF)
+          Download Full Resume (PDF)
           </button>
+          </a>
         </div>
+
       </div>
     </div>
   );

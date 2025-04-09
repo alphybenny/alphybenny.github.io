@@ -10,7 +10,7 @@ const Home = () => {
           <img
             src={AlphyFormals1}
             alt="My Photo"
-            className="rounded-full w-32 h-32 object-cover shadow-lg"
+            className="rounded w-32 h-32 object-cover shadow-lg"
           />
         </div>
         <div className="mb-6">
