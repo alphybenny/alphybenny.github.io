@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.6fa94652.css",
-    "main.js": "/static/js/main.5e37053d.js",
+    "main.css": "/static/css/main.c2e310ea.css",
+    "main.js": "/static/js/main.b373e036.js",
     "static/js/453.253ccfac.chunk.js": "/static/js/453.253ccfac.chunk.js",
+    "static/media/Alphy_Formals1.jpg": "/static/media/Alphy_Formals1.4d3c93b834104a8d9c65.jpg",
     "index.html": "/index.html",
-    "main.6fa94652.css.map": "/static/css/main.6fa94652.css.map",
-    "main.5e37053d.js.map": "/static/js/main.5e37053d.js.map",
+    "main.c2e310ea.css.map": "/static/css/main.c2e310ea.css.map",
+    "main.b373e036.js.map": "/static/js/main.b373e036.js.map",
     "453.253ccfac.chunk.js.map": "/static/js/453.253ccfac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6fa94652.css",
-    "static/js/main.5e37053d.js"
+    "static/css/main.c2e310ea.css",
+    "static/js/main.b373e036.js"
   ]
 }
