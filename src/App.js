@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import ReactGA from 'react-ga4';
 import { HashRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
 import Home from './pages/Home';
 import Skills from './pages/Skills';
@@ -6,7 +7,14 @@ import Resume from './pages/Resume';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 
+const TRACKING_ID = "G-Z3PWPWN04R";
+
 function App() {
+  useEffect(() => {
+    ReactGA.initialize(TRACKING_ID);
+    ReactGA.send("pageview");
+  }, []);
+
   return (
     <Router>
       <div className="min-h-screen bg-terminal-dark text-green-400 p-4 md:p-8">
