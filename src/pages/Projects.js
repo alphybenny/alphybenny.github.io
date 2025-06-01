@@ -27,7 +27,6 @@ const Projects = () => {
           </div>
         </div>
 
-                {/* TheraCare Project */}
         <div className="terminal-project">
           <h2 className="terminal-subtitle">TheraCare Hx – Patient Engagement Platform</h2>
           {/* Uncomment and update the src if you have an image */}
