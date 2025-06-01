@@ -26,6 +26,30 @@ const Projects = () => {
             <a href="https://github.com/username/ecommerce" className="terminal-link">GitHub Repo</a>
           </div>
         </div>
+
+                {/* TheraCare Project */}
+        <div className="terminal-project">
+          <h2 className="terminal-subtitle">TheraCare Hx – Patient Engagement Platform</h2>
+          {/* Uncomment and update the src if you have an image */}
+          {/* <img src={theraCareImg} alt="TheraCare Hx Screenshot" className="w-full max-w-md rounded mb-4" /> */}
+          <p className="terminal-text">
+            <b>Healthcare Web Application | Streamlit, Python, SQL, FHIR</b>
+            <br />
+            Designed and developed a responsive web application using <b>Streamlit</b> and <b>Python</b> to capture patient and family medical history aligned with <b>FHIR r4 standards</b>.<br />
+            Engineered secure backend workflows using <b>SQL</b> for structured data storage, ensuring compliance with healthcare data standards.
+          </p>
+          <div className="flex flex-wrap gap-2 mb-4">
+            <span className="terminal-skill">Streamlit</span>
+            <span className="terminal-skill">Python</span>
+            <span className="terminal-skill">SQL</span>
+            <span className="terminal-skill">FHIR</span>
+          </div>
+                    <div className="flex gap-4">
+            <a href="https://example.com/ecommerce-demo" className="terminal-link">View Demo</a>
+            <a href="https://github.com/alphybenny/TheraCareHx" className="terminal-link">GitHub Repo</a>
+          </div>
+        </div>
+      
         
         {/* <div className="terminal-project">
           <h2 className="terminal-subtitle">Task Management App</h2>
