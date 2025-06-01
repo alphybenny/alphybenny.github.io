@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Alphy Benny's Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my personal portfolio website!  
+This site showcases my projects, skills, and experience as a developer in healthcare and technology.
 
-## Available Scripts
+## 🚀 Tech Stack
 
-In the project directory, you can run:
+- **Frontend:** React, TailwindCSS
+- **Backend/Projects:** Python, Django, Streamlit, SQL, FHIR
+- **Deployment:** GitHub Pages
 
-### `npm start`
+## 🖥️ Running Locally
 
-Runs the app in the development mode.\
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/alphybenny/alphy-website.git
+cd alphy-website
+npm install
+npm start
+```
+
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+## 📦 Building for Production
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+npm run build
+```
+This will create an optimized production build in the `build` folder.
 
-### `npm run build`
+## 🌐 Deployment
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This site is deployed using **GitHub Pages**.  
+To deploy, run:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm run build
+npm run deploy
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📊 Analytics
 
-### `npm run eject`
+Google Analytics 4 is integrated for traffic and usage insights.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📝 Projects Highlight
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **TheraCare Hx – Patient Engagement Platform:**  
+  Responsive healthcare web app using Streamlit, Python, SQL, and FHIR standards.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Data Visualisation Tool:**  
+  Django-based dashboard for hospital OPD analytics using Python, Pandas, and Matplotlib.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+See the [Projects](./src/pages/Projects.js) page for more!
 
-## Learn More
+## 🤝 Connect
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [LinkedIn](https://www.linkedin.com/in/alphybenny/)
+- [GitHub](https://github.com/alphybenny)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for visiting my portfolio!
